@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    font-weight: 400px;
+    text-decoration: underline;
+    font-size: normal;
+
+}
+h1{
+    background-color: blue;
+    border: 2px solid black;
+
+}
+p{
+    border: 2px solid black;
+    list-style-type: style auto;
+    line-height: 2.5;
+    font-size: normal;
+    background-color: aqua;
+    color: black;
+}

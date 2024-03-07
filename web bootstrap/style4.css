@@ -1,0 +1,19 @@
+/* .container{
+    background-color: yellow;
+} */
+.container-md{
+    background-color: red;
+}
+.container-fluid{
+    background-color: blue;
+}
+#spn{
+    border-radius: 20px;
+} 
+.navbar-nav a{
+
+    text-align: right;
+}
+/* .group1{
+    display: inline-block;
+} */

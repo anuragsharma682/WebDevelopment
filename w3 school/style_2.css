@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height:50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+    position: fixed;
+    
+}
+.navbar .nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+.search{
+    margin-right: 20px;
+}
+.navbar .nav a:hover{
+    background-color: white;
+    color: black;
+    padding:15px ;
+}
+.search:hover{
+    background-color: red;
+    padding: 17px;
+    margin-right: 0px;
+}
+.main{
+    width: auto;
+    height: 600px;
+    background-image: url("https://www.w3schools.com/w3images/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bottom{
+    line-height: 50px;
+}
+.bottom h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bottom h4 {
+    font-style: italic;
+    text-align: center;
+}
+.bottom p{
+    line-height: 30px;
+    padding-left: 297px;
+    padding-right: 297px;
+}
+.image{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ #girl{
+    height: 150px;
+    margin: 60px;
+    border-radius: 4px;
+}
+.naam{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+
+ }
+

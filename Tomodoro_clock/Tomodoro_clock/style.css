@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    background-image: url("https://www.colorbook.io/imagecreator.php?hex=ef5350&width=1920&height=1080&text=%201920x1080");
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    height:auto;
+
+}
+
+header {
+    margin-bottom: 30px;
+    color: white;
+    font-family: cursive;
+}
+
+header h1 {
+    font-weight: bolder;
+    margin-top: 100px;
+    color:white;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.timer-div {
+    border: 1px solid white;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.timer {
+    font-weight: 700;
+    font-size: 2em;
+    position: relative;
+    top: 30px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+.time-length,
+.break-length {
+    font-size: 2em;
+    margin: 0;
+}
+
+.time-length,.session{color:black;}
+
+.break-length,.break {color:black;}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.flex-item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-container-column {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}
+.session
+{
+    margin-top: 20px;
+    font-family: cursive;
+}
+.break{
+    margin-top: 20px;
+    font-family: cursive;
+}
+.flex-item-column {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.session-control,
+.break-control {width: 75px;}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: flex-start;
+    margin: 10px;
+    max-width: 290px;
+    color:white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn {
+    font-variant: small-caps;
+    font-weight: 300;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+}
+.btn-sm {border-radius: 50%}
+
+.btn:hover {background-color:white ;color:white; border: 1px solid white;}
+
+.session, .break { font-size: 1em;}
+
+i { color: white;
+}
+
+.start, .stop, .reset {background-color: transparent; border: none; }
+
+.buttons {margin-top: 30px}

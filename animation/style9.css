@@ -1,0 +1,13 @@
+.main{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    animation-name: name;
+    animation-duration: 4s;
+    font-size: 20px;
+}
+@keyframes name{
+    from{font-size: 20px; background-color: aqua;}
+    to{font-size: 40px; background-color: blue;}
+}

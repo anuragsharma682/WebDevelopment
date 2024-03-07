@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    letter-spacing: 3px;
+    
+}
+.item2 a{
+    text-decoration: none;
+    margin-right: 40px;
+    color:grey;
+    letter-spacing: 3px;
+
+}
+.item1{
+    margin: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.main .img{
+    margin: 60px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.content p{
+    margin: 50px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.content h1{
+     text-align: center;
+     color: grey;
+     margin: 70px;
+     letter-spacing: 4px;
+}
+.content h3{
+    text-align: center;
+    color:grey;
+    letter-spacing: 4px;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+}
+ .content1 h1{
+    text-align: center;
+    color: grey;
+    margin: 70px;
+    letter-spacing: 4px;
+}
+.main1 .img1{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.content1{
+   padding-left: 65px;
+}
+.img1{
+    padding-right: 65px;
+}
+.fotter{
+    padding-left: 50px;
+    line-height: 30px;
+}
+.com{
+    line-height: 60px;
+}
+#name{
+    width: 99%;
+    height: 40px;
+    border: white;
+
+}
+#num{width: 99%;
+    height: 40px;
+    border: white;
+}
+#date{
+    width: 99%;
+    height: 40px;
+    border: white;
+}
+#msg{
+    width: 99%;
+    height: 40px;
+    border: white;
+}
+#btn{
+    height: 40px;
+    width: 150px;
+}
+.fotter h3{
+    color:lightblue;
+}
+
+
+
+
+
+
+
+
